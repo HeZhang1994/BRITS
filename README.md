@@ -3,7 +3,7 @@ The source codes of RITS-I, RITS, BRITS-I, BRITS for health-care data imputation
 
 To run the code:
 
-python main.py --epochs 1000 --batch_size 32 --model brist
+python main.py --epochs 1000 --batch_size 32 --model brits
 
 # Data Format
 In json folder, we provide the sample data (400 patients).
