@@ -1,11 +1,21 @@
 # Description - work20190218
 The source codes of RITS-I, RITS, BRITS-I, BRITS for health-care data imputation/classification
 
+## Requirement
+
+* __Python 2__
+
+* __ujson__
+
+* __ipdb__
+
+## Usage
+
 To run the code:
 
 python main.py --epochs 1000 --batch_size 32 --model brits
 
-# Data Format
+## Data Format
 In json folder, we provide the sample data (400 patients).
 The data format is as follows:
 
@@ -23,7 +33,7 @@ The data format is as follows:
     * evals: list, indicating x_t \in R^d (before elimination)
     * eval_masks: list, indicating whether each value is an imputation ground-truth
 
-# Data Download Links
+## Data Download Links
 
 * Air Quality Data:
 URL: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/STMVL-Release.zip
