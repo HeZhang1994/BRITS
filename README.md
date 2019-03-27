@@ -1,4 +1,4 @@
-# Description - work20190218
+# Description - proj2019
 The source codes of RITS-I, RITS, BRITS-I, BRITS for health-care data imputation/classification
 
 ## Requirement
@@ -21,8 +21,9 @@ python main.py --epochs 1000 --batch_size 32 --model brits
 In json folder, we provide the sample data (400 patients).
 The data format is as follows:
 
-* Each line in json/json is a string represents a python dict
-* The structure of each dict is
+* ./json/json file has 400 lines - represent health data of 400 patients
+* Each line in ./json/json is a <str> represents a python dict, after using `json.loads()` function, we get a <dict>
+* The structure of each dict is (i.e., the <dict> has 3 keys)
     * forward
     * backward
     * label
