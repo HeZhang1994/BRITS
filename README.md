@@ -1,5 +1,5 @@
 # Description - proj2019
-The source codes of RITS-I, RITS, BRITS-I, BRITS for health-care data imputation/classification
+The source codes of RITS-I, RITS, BRITS-I, BRITS for health-care data imputation/classification (NeurIPS).
 
 ## Requirement
 
